@@ -1,0 +1,57 @@
+<!--logan green,september 18th 20244 -->
+<!--DOCTYPE this is the first tag on the page and it tells the browser that this is an html-->
+<!DOCTYPE html>
+<!--the html tag goes next-->
+<html>
+    <!--the head section has info for the browser and search engine-->
+    <head>
+        <link rel="stylesheet"  href="boards.css">
+        <title>CS102 Board Page</title>
+    </head>
+    <!--the body section holds the text and images that we want to show the user-->
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="finalproject.html">Home</a></li>
+                    <li><a href="protfoling boards page.html">Boards</a></li>
+                    <li><a href="my portfolio.html">Portfolio</a></li>
+                </ul>
+        <h1>Welcome to my Game Design degree objectives</h1>
+        <!--p is paragraph tag; has spacing around it by default-->
+        <p>
+            1. Prototype and complete original games for multiple platforms following the full game production pipeline. 
+
+<br>
+            <br>
+            <!--I honestly have no idea what this code does i just put it in cause the video did-->
+2. Demonstrate effective game design practices and techniques within the project scope and context, such as genre, style, platform, and audience.
+<br>
+<br>
+            <!--I honestly have no idea what this code does i just put it in cause the video did-->
+3.Effectively articulate game design elements and mechanics across disciplines utilizing written and verbal communication skills. 
+<br> 
+<br>
+            <!--I honestly have no idea what this code does i just put it in cause the video did-->
+4. Create and implement game elements, systems and play mechanics using industry-standard tools, techniques, and production methods, including art or scripting/programming applications.
+<br>
+<br>
+            <!--I honestly have no idea what this code does i just put it in cause the video did-->
+5. Demonstrate the ability to evaluate game designs for a variety of gameplay mechanics, game applications, and game genres.
+<br> 
+<br>
+            <!--I honestly have no idea what this code does i just put it in cause the video did-->
+6.Establish collaboration, mentorship, and professional leadership skills by working with other disciplines to deliver highly polished and completed projects.
+<br>
+<br>
+            <!--p is paragraph tag; has spacing around it by default-->
+        </p>
+        <!--the body section holds the text and images that we want to show the user-->
+        <footer>Logan Green
+            University of Advancing Technology <br> 
+             2625 W Baseline Rd <br>
+             Tempe AZ 85283 <br>
+        </footer>
+    </body>
+    
+</html>
