@@ -1,0 +1,75 @@
+<head>
+    <link rel="stylesheet"  href="DICE.css">
+  
+</head>
+
+</header>
+<h1>
+    <nav>
+        <ul>
+            <li><a href="finalproject.html">Home</a></li>
+            <li><a href="protfoling boards page.html">Boards</a></li>
+            <li><a href="my portfolio.html">Portfolio</a></li>
+        </ul>
+</h1>
+<h2>
+    
+    
+
+Dice and Chips</h2>
+    
+
+Project type 
+    <br>Group 2-4</p>
+
+
+<h4>
+    
+
+Location
+</h4>
+University of Advancing Technology
+
+
+
+
+<h4>
+    Game designer
+  
+</h4>
+<p3> 
+
+   
+
+    Creates the foundation of a game, including the gameplay, rules, systems, and world-building. They use their creativity, understanding of player psychology, and game mechanics to create engaging and immersive experiences.
+
+     <h4>
+        Degree Objective(s) Met
+
+    </h4>
+    <p3> Degree Objective Three:
+        Effectively articulate game design elements and mechanics across disciplines utilizing written and verbal communication skills.  <br><br>
+        
+        Degree Objective Four:
+        Create and implement game elements, systems and play mechanics using industry-standard tools, techniques, and production methods, including art or scripting/programming applications.
+    
+        <h4>
+            Explanation of assignment
+    
+        </h4>
+        <p3> In this project we had to create a game using only dice and chips that would be fun, balanced and strategic.
+
+            The idea i came up with was to create a game using the dice numbers on the chips, placing them next to each other as shown would tally up a number count with the goal being to hit a certain number. Going over this number would count as a loss and the winner would be determined by who was closest to the goal number.
+
+
+            <body>
+                
+            <br>   <br>
+            <img src="DICE1.png" alt="image could not be displayed" id="MAZE" width ="300"height="300">
+            <img src="DICE2.png" alt="image could not be displayed" id="MAZE" width ="300"height="300">
+            <img src="DICE3.png" alt="image could not be displayed" id="MAZE" width ="300"height="300">
+            
+            </body>
+            
+
+
