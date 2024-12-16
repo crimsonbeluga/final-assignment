@@ -1,0 +1,123 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    background-color: #f4f4f9; /* Light gray background for the body */
+    font-family: 'Arial', sans-serif; /* Clean and professional font */
+    color: #333; /* Dark gray text for readability */
+    font-size: 18px; /* Standard font size */
+    line-height: 1.6; /* Line height for better readability */
+    text-align: center; /* Center-align text by default */
+}
+
+/* Header Styling */
+h1 {
+    font-size: 40px; /* Large font size for the main header */
+    background-color: #0044cc; /* Blue background for header */
+    color: white; /* White text for contrast */
+    padding: 20px 0; /* Vertical padding for header */
+    text-transform: uppercase; /* Uppercase letters for the header */
+    letter-spacing: 4px; /* Add space between letters */
+    font-weight: bold; /* Make the header bold */
+    margin-bottom: 30px; /* Space below the header */
+}
+
+/* Navigation Bar Styling */
+nav ul {
+    list-style: none; /* Remove default list styles */
+    display: flex; /* Display the list items in a row */
+    justify-content: center; /* Center-align navigation links */
+    gap: 20px; /* Space between the navigation links */
+    padding: 10px 0; /* Padding for the navigation links */
+}
+
+nav li {
+    display: inline-block; /* Display the list items inline */
+}
+
+nav a {
+    color: white; /* White text for links */
+    text-decoration: none; /* Remove underline from links */
+    font-size: 18px; /* Font size for navigation links */
+    padding: 10px 20px; /* Padding around the links */
+    text-transform: uppercase; /* Uppercase text for links */
+    border-radius: 5px; /* Rounded corners for the links */
+    transition: background-color 0.3s ease; /* Smooth transition for background color on hover */
+}
+
+/* Hover Effect for Navigation Links */
+nav a:hover {
+    background-color: #0044cc; /* Change background color when hovering */
+    color: white; /* Keep text white on hover */
+}
+
+/* Image Section Styling */
+h2 {
+    margin: 0; /* Remove default margin from h2 */
+    padding: 30px 0; /* Add vertical padding around the images */
+}
+
+h2 a {
+    display: inline-block; /* Display the images in a row */
+    margin: 20px; /* Space between the images */
+    border-radius: 8px; /* Rounded corners for the images */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth scaling and shadow effect */
+}
+
+/* Image Hover Effect */
+h2 a:hover {
+    transform: scale(1.05); /* Slightly enlarge the images on hover */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Add shadow effect on hover */
+}
+
+/* Image Styling */
+#DICE, #SKULL, #MAZE {
+    width: 475px; /* Set a fixed width for the images */
+    height: 475px; /* Set a fixed height for the images */
+    border: 3px solid #0044cc; /* Blue border around each image */
+}
+
+/* Footer Styling (if needed, for footer in portfolio) */
+footer {
+    background-color: #333; /* Dark background for footer */
+    color: white; /* White text for footer */
+    padding: 20px 0; /* Padding for the footer */
+    text-align: center; /* Center-align footer text */
+    font-size: 16px; /* Font size for footer */
+    margin-top: 50px; /* Space above the footer */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    /* Adjust header size on small screens */
+    h1 {
+        font-size: 30px; /* Smaller font size for the header */
+    }
+
+    /* Stack the navigation items on smaller screens */
+    nav ul {
+        flex-direction: column; /* Stack vertically */
+        gap: 10px; /* Reduced gap between items */
+    }
+
+    /* Adjust image size for smaller screens */
+    #DICE, #SKULL, #MAZE {
+        width: 90%; /* Make images responsive */
+        height: auto; /* Keep aspect ratio for the images */
+    }
+
+    /* Reduce font size for the links on mobile */
+    nav a {
+        font-size: 16px; /* Smaller font size for the navigation links */
+    }
+
+    /* Adjust padding and margin for smaller screens */
+    h2 {
+        padding: 20px 0; /* Less padding for smaller screens */
+    }
+}
