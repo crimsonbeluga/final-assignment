@@ -1,0 +1,85 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    background-color: #f4f4f9; /* Light gray background */
+    font-family: 'Arial', sans-serif; /* Clean and professional font */
+    color: #333; /* Dark gray text */
+    font-size: 18px; /* Standard font size */
+    line-height: 1.6; /* Line height for better readability */
+    display: flex; /* Use flexbox to center content */
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+    height: 100vh; /* Full viewport height */
+    text-align: center; /* Center-align text by default */
+    flex-direction: column; /* Stack content vertically */
+}
+
+/* Header Styling */
+h1 {
+    font-size: 40px; /* Large font size for the main header */
+    background-color: #0044cc; /* Blue background for header */
+    color: white; /* White text for contrast */
+    padding: 20px 0; /* Vertical padding for the header */
+    text-transform: uppercase; /* Uppercase letters for the header */
+    letter-spacing: 4px; /* Add space between letters */
+    font-weight: bold; /* Make the header bold */
+    margin-bottom: 30px; /* Space below the header */
+    width: 100%; /* Ensure header spans the entire width */
+}
+
+/* Navigation Bar Styling */
+nav ul {
+    list-style: none; /* Remove default list styles */
+    display: flex; /* Display the list items in a row */
+    justify-content: center; /* Center-align navigation links */
+    gap: 20px; /* Space between the navigation links */
+    padding: 10px 0; /* Padding for the navigation links */
+}
+
+nav li {
+    display: inline-block; /* Display the list items inline */
+}
+
+nav a {
+    color: white; /* White text for links */
+    text-decoration: none; /* Remove underline from links */
+    font-size: 18px; /* Font size for navigation links */
+    padding: 10px 20px; /* Padding around the links */
+    text-transform: uppercase; /* Uppercase text for links */
+    border-radius: 5px; /* Rounded corners for the links */
+    transition: background-color 0.3s ease; /* Smooth transition for background color on hover */
+}
+
+/* Hover Effect for Navigation Links */
+nav a:hover {
+    background-color: #0044cc; /* Change background color when hovering */
+    color: white; /* Keep text white on hover */
+}
+
+/* Section Title Styling (h2, h4) */
+h2, h4 {
+    font-size: 28px; /* Medium font size for section titles */
+    margin: 20px 0; /* Space above and below section titles */
+    color: #333; /* Dark gray color for headings */
+    font-weight: bold; /* Make headings bold */
+    text-align: center; /* Center-align the headings */
+}
+
+/* Paragraph Styling */
+p, p3 {
+    font-size: 18px; /* Standard font size for paragraph text */
+    color: #555; /* Slightly lighter gray for the paragraphs */
+    margin-bottom: 20px; /* Space below paragraphs */
+    text-align: justify; /* Justify text for better readability */
+    padding: 0 20px; /* Padding on the left and right for paragraphs */
+}
+
+/* Image Styling */
+img {
+    width: 300px; /* Fixed width 
