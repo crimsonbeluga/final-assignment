@@ -1,0 +1,102 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    background-color: #f4f4f9; /* Light gray background for a clean look */
+    font-family: 'Arial', sans-serif; /* Professional sans-serif font */
+    color: #333; /* Dark gray text for better readability */
+    font-size: 18px; /* Slightly larger font for better readability */
+    line-height: 1.6; /* Improved line height for readability */
+    text-align: center; /* Center text for a more balanced design */
+}
+
+/* Header Styling */
+header {
+    background-color: #0044cc; /* Blue background for header */
+    color: white; /* White text color */
+    padding: 40px 0; /* Vertical padding for spacing */
+    font-size: 60px; /* Large text for the header */
+    font-weight: bold;
+    text-transform: uppercase; /* Make header text stand out */
+    letter-spacing: 5px; /* Add spacing between letters */
+}
+
+/* Navigation Styling */
+h2 nav {
+    background-color: #333; /* Dark background for the navigation bar */
+    padding: 10px 0; /* Padding around the nav links */
+}
+
+h2 nav ul {
+    list-style: none; /* Remove default list styles */
+    display: flex; /* Flexbox for horizontal layout */
+    justify-content: center; /* Center the navigation links */
+    gap: 20px; /* Space between each navigation item */
+}
+
+h2 nav li {
+    display: inline-block; /* Keep the list items inline */
+}
+
+h2 nav a {
+    color: white; /* White text for links */
+    text-decoration: none; /* Remove underline */
+    font-size: 20px; /* Font size for the links */
+    padding: 10px 20px; /* Spacing around the text */
+    text-transform: uppercase; /* Make the text uppercase */
+    border-radius: 5px; /* Round the corners of the links */
+    transition: background-color 0.3s ease; /* Smooth background transition */
+}
+
+/* Hover Effect for Links */
+h2 nav a:hover {
+    background-color: #0044cc; /* Change background color on hover */
+    color: white; /* Keep text white on hover */
+}
+
+/* Section Styling */
+#uat {
+    background-color: #fff; /* White background for the content section */
+    border: 2px solid #0044cc; /* Matching blue border */
+    margin: 20px auto; /* Center the section horizontally */
+    padding: 20px; /* Padding inside the section */
+    max-width: 800px; /* Set a maximum width for the content */
+    border-radius: 8px; /* Rounded corners for a modern look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+#uat p {
+    font-size: 22px; /* Increase font size for paragraph text */
+    color: #666; /* Slightly lighter color for the text */
+    text-align: center; /* Center the text inside the section */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    /* Adjust header size on small screens */
+    header {
+        font-size: 40px; /* Smaller font size for the header */
+    }
+
+    /* Stack the navigation items on smaller screens */
+    h2 nav ul {
+        flex-direction: column; /* Stack vertically */
+        gap: 10px; /* Reduced gap between items */
+    }
+
+    /* Smaller text for the links on mobile */
+    h2 nav a {
+        font-size: 18px; /* Smaller font size for links */
+    }
+
+    /* Adjust the section styling for smaller screens */
+    #uat {
+        margin: 10px; /* Reduce margin for smaller screens */
+        padding: 15px; /* Less padding for mobile */
+    }
+}
