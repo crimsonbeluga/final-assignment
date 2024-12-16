@@ -1,0 +1,127 @@
+* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    background-color: #f4f4f9; /* Light background color for a clean look */
+    font-family: 'Arial', sans-serif; /* Professional font for the content */
+    color: #333; /* Dark text color for readability */
+    font-size: 18px; /* Slightly larger font for readability */
+    line-height: 1.6; /* Line height for better readability */
+    text-align: center; /* Center align text for consistency */
+}
+
+/* Header Styling */
+header {
+    background-color: #0044cc; /* Blue background for header */
+    color: white; /* White text color */
+    padding: 40px 0; /* Add padding around the header */
+    font-size: 50px; /* Large header text */
+    text-transform: uppercase; /* Uppercase for a professional look */
+    letter-spacing: 3px; /* Slight letter spacing for clean appearance */
+}
+
+/* Navigation Bar Styling */
+nav ul {
+    list-style: none; /* Remove default list styles */
+    display: flex; /* Flexbox to align items horizontally */
+    justify-content: center; /* Center align navigation links */
+    gap: 20px; /* Spacing between the links */
+    padding: 10px 0;
+    background-color: #333; /* Dark background for the nav */
+}
+
+nav li {
+    display: inline-block; /* Keep items inline */
+}
+
+nav a {
+    color: white; /* White color for links */
+    text-decoration: none; /* Remove underline */
+    font-size: 18px; /* Font size for the links */
+    padding: 10px 20px; /* Padding around the text */
+    text-transform: uppercase; /* Uppercase text for links */
+    border-radius: 5px; /* Rounded corners for a modern feel */
+    transition: background-color 0.3s ease; /* Smooth background change on hover */
+}
+
+/* Hover Effect for Navigation Links */
+nav a:hover {
+    background-color: #0044cc; /* Change background on hover */
+    color: white; /* Keep text white on hover */
+}
+
+/* Main Content Styling */
+h1 {
+    font-size: 36px; /* Smaller font size for the main heading */
+    margin-top: 20px; /* Space above the heading */
+    color: #0044cc; /* Use the same blue as the header for consistency */
+}
+
+p {
+    font-size: 20px; /* Readable font size for the paragraphs */
+    color: #000000; /* Slightly lighter color for the text */
+    margin: 20px 0; /* Add margin for spacing between paragraphs */
+    text-align: left; /* Left-align the text for better readability */
+    max-width: 800px; /* Limit width to avoid stretched lines */
+    margin-left: auto; /* Center the text horizontally */
+    margin-right: auto; /* Center the text horizontally */
+}
+
+br {
+    margin-bottom: 10px; /* Add space between lines when using <br> */
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333; /* Dark background for the footer */
+    color: white; /* White text in the footer */
+    padding: 20px 0; /* Padding around the footer */
+    text-align: center; /* Center-align footer text */
+    font-size: 16px; /* Smaller font size for footer */
+}
+
+/* Box Styling for Specific IDs (DICE, SKULL, MAZE) */
+#DICE, #SKULL, #MAZE {
+    border: 2px solid #0044cc; /* Blue border around the sections */
+    padding: 20px; /* Padding inside the sections */
+    margin-top: 20px; /* Space above the boxes */
+    max-width: 90%; /* Limit the width of the sections */
+    margin-left: auto; /* Center the section */
+    margin-right: auto; /* Center the section */
+    border-radius: 8px; /* Rounded corners for the sections */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    background-color: #fff; /* White background for contrast */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header {
+        font-size: 30px; /* Reduce font size on small screens */
+    }
+
+    nav ul {
+        flex-direction: column; /* Stack navigation items vertically */
+        gap: 10px; /* Smaller gap between items */
+    }
+
+    nav a {
+        font-size: 16px; /* Smaller font size for links */
+    }
+
+    h1 {
+        font-size: 28px; /* Smaller heading font size */
+    }
+
+    p {
+        font-size: 18px; /* Smaller font size for paragraphs */
+    }
+
+    footer {
+        font-size: 14px; /* Smaller font size for footer */
+    }
+}
