@@ -1,0 +1,82 @@
+!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maze Escape</title>
+    <link rel="stylesheet" href="DICE.css">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>
+            <nav>
+                <ul>
+                    <li><a href="finalproject.html">Home</a></li>
+                    <li><a href="protfoling boards page.html">Boards</a></li>
+                    <li><a href="my portfolio.html">Portfolio</a></li>
+                </ul>
+            </nav>
+        </h1>
+    </header>
+
+    <!-- Main Content Section -->
+    <main>
+        <section>
+            <h2>Maze Escape</h2>
+            <p><strong>Project Type:</strong> Group 2-4</p>
+
+            <h4>Location</h4>
+            <p>University of Advancing Technology</p>
+
+            <h4>Game Designer</h4>
+            <p>Game designers create the foundation of a game, including the gameplay, rules, systems, and world-building.
+                They use their creativity, understanding of player psychology, and game mechanics to create engaging and
+                immersive experiences.</p>
+
+            <h4>Degree Objective(s) Met</h4>
+            <p><strong>Degree Objective Two:</strong> Demonstrate effective game design practices and techniques within
+                the project scope and context, such as genre, style, platform, and audience.</p>
+            <p><strong>Degree Objective Six:</strong> Establish collaboration, mentorship, and professional leadership
+                skills by working with other disciplines to deliver highly polished and completed projects.</p>
+
+            <h4>Explanation of Assignment</h4>
+            <p>You are to create a concept for a simple game. Your engine for this exercise is a ball or ball-like
+                structure (a wadded up piece of paper would work). Your challenge is to create a game using the ball that
+                does not involve throwing, kicking, or flicking the ball in any way. The game should be competitive and
+                involve two players or two teams.</p>
+
+            <p>The following constraints must be considered and adhered to when creating your game:</p>
+            <ul>
+                <li>Must involve a ball.</li>
+                <li>Must be physically playable (no video games or physics-defying ideas).</li>
+                <li>The ball can't be kicked, thrown, shot, or flicked.</li>
+                <li>The game is a competitive game between two players.</li>
+            </ul>
+
+            <p>The process:</p>
+            <ul>
+                <li>Create a rule sheet that would allow someone to play the game without external information from you, the
+                    designer.</li>
+                <li>Playtest the game to test for bugs, engagement, and fun.</li>
+                <li>Take pictures of the game in action, sketch up ideas, or use any images that help better explain your game.</li>
+                <li>Include a short write-up that defines the theme or reason the play is taking place and identifies what it is about
+                    the game that is fun.</li>
+            </ul>
+
+            <p>Be prepared to present these ideas to the class, and the team with the best game design will earn extra credit.
+                The instructor will select a winner.</p>
+
+            <!-- Image Gallery Section -->
+            <section class="image-gallery">
+                <img src="MAZE.png" alt="Maze Game Image 1" id="MAZE1">
+                <img src="MAZE2.png" alt="Maze Game Image 2" id="MAZE2">
+                <img src="MAZE1.png" alt="Maze Game Image 3" id="MAZE3">
+            </section>
+        </section>
+    </main>
+</body>
+
+</html>
